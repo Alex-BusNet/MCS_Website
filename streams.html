@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>Streams</title>
+    <link rel="stylesheet" type="text/css" media="screen" href="streams.css">
+</head>
+<body>
+    <div>
+        <ul class="menu">
+            <li><a href="index.html"><span>Home</span></a></li>
+            <li><a href="members.html"><span>Members</span></a></li>
+            <li><a href="projects.html"><span>Our Projects</span></a></li>
+            <li><a href="streams.html" class="active"><span>Streams</span></a></li>
+            <!--<li><a href="modpacks.html"><span>Modpacks</span></a></li>-->
+            <!--<li><a href="serverMaps.html"><span>Server Maps</span></a></li>-->
+        </ul>
+    </div>
+    <br>
+    <div id="mainBody">
+        <br>
+        <p>Sparta's livestream</p>
+        <br>
+        <object bgcolor="#000000"
+                    data="//www-cdn.jtvnw.net/swflibs/TwitchPlayer.swf"
+                    height="768px"
+                    width="75%"
+                    type="application/x-shockwave-flash"
+                    >
+                <param name="allowFullScreen"
+                       value="true" />
+                <param name="allowNetworking"
+                       value="all" />
+                <param name="allowScriptAccess"
+                       value="always" />
+                <param name="movie"
+                       value="//www-cdn.jtvnw.net/swflibs/TwitchPlayer.swf" />
+                <param name="flashvars"
+                       value="channel=tlpn_sparta&auto_play=true&start_volume=25" />
+            </object>
+        <iframe frameborder="0"
+                scrolling="no"
+                id="chat_embed"
+                src="http://www.twitch.tv/tlpn_sparta/chat"
+                height="768px"
+                width="25%"
+                align="right">
+            </iframe>
+        <br>
+        <br>
+    </div>
+    <div id="footer">
+        <br>
+    </div>
+</body>
+</html>

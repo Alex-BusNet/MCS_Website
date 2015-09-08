@@ -1,0 +1,104 @@
+@font-face {
+    font-family: 'minecraft';
+    src: url('fonts/gotham-extra-narrow-medium.otf');
+}
+
+body{
+    width: 70%;
+    padding-left: 15%;
+    background-image: url('images/minecraft_castle_BG.png');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+}
+
+ul {
+    text-align: center;
+    font-size: 18px;
+    align-items: center;
+    color: white;
+}
+
+#mainBody {
+    /*width: 70%;*/
+    padding-left: 1%;
+    padding-right: 1%;
+    background-image: url('images/smoothStone.png');
+    background-size: 100px;
+    background-repeat: repeat;
+    font-family:  'minecraft';
+}
+
+p {
+    text-align: center;
+}
+
+#footer {
+    background-image: url('images/bedrock.png');
+    background-repeat: repeat-x;
+    line-height: 64px;
+}
+
+/*  ===============================
+    Add new CSS code above this line
+    ===============================  */
+
+.menu{
+    margin:0 auto;
+    padding:0;
+    height:30px;
+    width:100%;
+    display:block;
+    background:url('images/topMenuImages.png') repeat-x;
+    text-align: center;
+}
+
+.menu li{
+    padding:0;
+    margin:0;
+    list-style:none;
+    display:inline;
+}
+
+.menu li a{
+    float:left;
+    padding-left:40px;
+    display:block;
+    color:rgb(255,255,255);
+    text-decoration:none;
+    font:16px 'fonts/Minecrafter_3.ttf';
+    cursor:pointer;
+    background:url('images/topMenuImages.png') 0px -30px no-repeat;
+    text-align: center;
+}
+
+.menu li a span{
+    line-height:30px;
+    float:left;
+    display:block;
+    padding-right:20px;
+    background:url('images/topMenuImages.png') 100% -30px no-repeat;
+    text-align: center;
+}
+
+.menu li a:hover {
+    background-position: 20px -60px;
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+
+.menu li a:hover span{
+    background-position:100% -60px;
+    text-align: center;
+}
+.menu li a.active, .menu li a.active:hover{
+    line-height:30px;
+    font:16px 'fonts/Minecrafter_3.ttf';
+    background:url('images/topMenuImages.png') 20px -90px no-repeat;
+    color:rgb(255,255,255);
+    text-align: center;
+}
+.menu li a.active span, .menu li a.active:hover span{
+    background:url('images/topMenuImages.png') 100% -90px no-repeat;
+    text-align: center;
+}
